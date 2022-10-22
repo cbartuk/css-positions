@@ -1,0 +1,67 @@
+// Background Helpers
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-brown {
+  background-color: $brown;
+}
+
+.bg-cream {
+  background-color: $cream;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+// Text Helpers
+
+.text-dark {
+  color: $dark;
+}
+
+.text-brown {
+  color: $brown;
+}
+
+.text-cream {
+  color: $cream;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-light {
+  color: $light;
+}
+
+// Margin Helpers
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,8 @@
+.box {
+  background-color: $light;
+  padding: 1rem;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: calc($header-height + 1rem);
+}

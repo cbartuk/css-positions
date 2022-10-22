@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $header-height;
+  width: 100%;
+  z-index: 2;
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      margin: 1rem 2rem;
+    }
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: $header-height;
+  left: 0;
+  width: $sidebar-width;
+
+  ul {
+    list-style: none;
+    padding: 2rem 1rem 0;
+
+    li {
+      a {
+        display: block;
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+.content {
+  position: absolute;
+  top: $header-height;
+  left: $sidebar-width;
+  width: calc(100% - $sidebar-width);
+
+  &-item {
+    height: 100vh;
+    padding: 2rem 1rem;
+  }
+}

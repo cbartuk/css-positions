@@ -1,0 +1,13 @@
+/* tanımladığımız değişkenleri "import" ederek kullanıyoruz. */
+@import "variables.scss";
+
+/* google font dosyasını çekiyoruz */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+@import "reboot.scss";
+@import "helpers.scss";
+@import "base.scss";
+@import "layout.scss";
+
+@import "components/box.scss";
+@import "components/collapse-menu.scss";

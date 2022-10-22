@@ -1,0 +1,37 @@
+.collapse-menu {
+  input[type="checkbox"] {
+    display: none;
+
+    & + label {
+      p {
+        cursor: pointer;
+        color: $light;
+        font-weight: bold;
+      }
+
+      div {
+        background-color: $light;
+        color: $text-color;
+        display: none;
+
+        ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+            a {
+              display: block;
+              padding: 0.33rem 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    &:checked + label {
+      div {
+        display: block;
+      }
+    }
+  }
+}
